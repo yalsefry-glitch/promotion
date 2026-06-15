@@ -1,0 +1,19 @@
+{
+  "name": "promotion",
+  "version": "1.0.0",
+  "description": "ProMotion — Arabic-to-cinematic ad video generator",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@fal-ai/client": "^1.2.0",
+    "@google/genai": "^2.8.0",
+    "cors": "^2.8.5",
+    "express": "^4.21.0"
+  }
+}
